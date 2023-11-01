@@ -2,299 +2,670 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first page</title>
-    <link rel="icon" href="code.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Table Page..</title>
 </head>
+<style>
+    #head {
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        margin-bottom: -18px;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    #h1 {
+        text-decoration: underline;
+        font-weight: 500;
+        font-style: italic;
+        color: deeppink;
+    }
+
+    #i {
+        background-color: yellow;
+    }
+    #d {
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        padding-top: 1px;
+        margin-top: 170px;
+        color: white;
+    }
+</style>
 
 <body>
-    <header>
-        <h1>My Goals for this year</h1>
-
-        <nav aria-label="primary navagation">
-            <ul>
-                <li>
-                    <a href="#html">Learning HTML </a>
-                </li>
-                <li>
-                    <a href="#vacation">Going to vacation</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact me</a>
-                </li>
-            </ul>
+    <div id="head">
+        <nav>
+            <img src="/Images/x workz 2 logo.png" alt="Logo" />
         </nav>
-    </header>
+    </div>
+    <br>
+    <h1 align="center" id="h1">Student marks list of different section</h1>
 
-    <hr>
-    <main>
-        <article id="html">
-
-            <h2>I am read to learn HTML...</h2>
-            <p>This is my first web page</p>
-            <section>
-                <h3>HTML 5</h3>
-                <figure>
-                    <img src="img/Picture1.jpg" alt="Normal picture" title="i am learening html" width="300"
-                        height="300">
-                    <figcaption>
-                        school photo
-                    </figcaption>
-                </figure>
-            </section>
-
-            <section>
-                <h3> My daily schedule...</h3>
-                <p> Let you tell me how.. </p>
-                <ol>
-                    <li>....I learned more about wed developement.</li>
-                    <li>....I plan my schedule.</li>
-                    <li>;....I used resorce from freecodecamp <abbr title="Free code Camp"><a
-                                href="file:///D:/DEVELOPMENT/HTML/index.html ">FCC..</a></abbr></li>
-
-                </ol>
-                <aside>
-                    <details>
-                        <summary>
-                            Guess the number of hours i code every day</summary>
-                        <p>I will code for <mark><time datetime="03:00"> 3 hours</time></mark></p>
-                    </details>
-                </aside>
-                <br>
-                <table>
-                    <caption> My Daily schedule</caption>
-                    <thead>
-                        <tr>
-                            <th>&nbsp;</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Activity</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Morning</th>
-                            <td>
-                                <time datetime="03:00">3am</time>-<time datetime="11:00">11am</time>
-                            </td>
-                            <td>Write code</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Break</th>
-                            <td>
-                                <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
-                            </td>
-                            <td>Eat lunch</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Afternoon</th>
-                            <td>
-                                <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
-                            </td>
-                            <td>Watch the movie</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Evening</th>
-                            <td rowspan="2">All other times</td>
-                            <td>Free Time</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Night</th>
-                            <td>Sleep</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="3">And thats what i do daily just eat, code ,and sleep </td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </section>
-        </article>
-
-        <hr>
-
-        <article id="vacation">
-            <h2>I am also planning for the vacation</h2>
-            <p><em>I am working hard and i planned for the vacation</em>..</p>
-            <p>I am planning to go for goa and the beaches</p>
-            <section>
-                <h3> Places i like to visit in <abbr title="go and enjoy"> GOA </abbr></h3>
-                <ul>
-                    <li>
-                        <p> Beaches and pubs..</p>
-                        <p>I heard good things about here:</p>
-                        <img src="img/code.png" alt="Html code" title="i want to wrtie my own code" width="300"
-                            height="300" loading="lazy">.
-                        <figure>
-                            <figcaption>An example of html code</figcaption>
-                            <p>
-                                <code>&lt;h1&gt;HELLO WORLD&lt;/h1&gt;</code>
-                            </p>
-                        </figure>
-                    </li>
-
-                    <li>
-                        <address>
-                            One big island<br>
-                            beautifull place<br>
-                        </address>
-                    </li>
-                </ul>
-            </section>
-            <!---Avood the unwanted things-->
-            <section>
-                <h3> I want to avoid unwanted things </h3>
-                <dl>
-                    <dt>Nandi hills</dt>
-                    <dd>It is very <strong>top</strong></dd>
-
-                    <dt>Ishafoundation</dt>
-                    <dd>It is very long </dd>
-
-                    <dt>hills</dt>
-                    <dd>It is very tough</dd>
-                </dl>
-            </section>
-        </article>
-
-        <hr>
-        <article id="contact">
-            <h2>Contact me</h2>
-            <p>I am really like to hear from you!</p>
-
-            <form action="https://httpbin.org/get" method="get">
-                <fieldset>
-                    <legend>Personal Info</legend>
-                    <p>
-                        <label for="firstName">First Name: </label>
-                        <input type="text" name="firstName" id="firstName" placeholder="Johan" autocomplete="on"
-                            required autofocus>
-                    </p>
-
-                    <p>
-                        <label for="lastName">Last Name: </label>
-                        <input type="text" name="lastName" id="lastName" placeholder="sena" autocomplete="on" required>
-                    </p>
-
-                    <p>
-                        <label for="password">Password: </label>
-                        <input type="password" name="password" id="password" placeholder="your secret" required>
-                    </p>
-
-                    <p>
-                        <label for="phone">Phone:</label>
-                        <input type="tel" name="phone" id="phone" placeholder="0000000000"
-                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                    </p>
-
-                    \
-                    <p>
-                        <label for="decade">Faviorate Decade:</label>
-                        <input type="number" name="decade" id="decade" min="1950" max="2023" step="10" value="1980">
-                    </p>
-
-                    <p>
-                        <label for="coffee">Faviorate Coffee: </label>
-                        <select name="coffee" id="coffee" multiple size="5">
-                            <optgroup label="Coffeess">
-                                <option value="suger coffee">Suger coffee</option>
-                                <option value="regular coffee">Regular coffee</option>
-                                <option value="iced coffee">Iced coffee</option>
-                            </optgroup>
-
-                            <optgroup label="Espresso Drinks">
-                                <option value="cappuccino">Cappuccino</option>
-                                <option value="latte" selected>Latte</option>
-                                <option value="cartoda">Cartoda</option>
-                                <option value="americano">americano</option>
-                            </optgroup>
-
-                            <option value="other">Other Coffees</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label for="coffee">Faviorate Cofee</label>
-                        <input type="text" name="coffee" id="coffee" list="coffee-list" placeholder="Select coffee">
-                        <datalist id="coffee-list">
-                            <option value="coffee">
-                            <option value="latte">
-                            <option value="espresso">
-                            <option value="cortado">
-                            <option value="americano">
-                            <option value="others">
-                        </datalist>
-                    </p>
-                </fieldset>
-                <br>
-
-                <fieldset>
-                    <legend>What is your faviorate food</legend>
-                    <p>
-                        <input type="radio" name="food" id="tacos" value="tacos">
-                        <label for="tacos">Tacos</label>
-                    </p>
-
-                    <p>
-                        <input type="radio" name="food" id="pizza" value="pizza">
-                        <label for="pizza">Pizza</label>
-                    </p>
-
-                    <p>
-                        <input type="radio" name="food" id="other" value="other">
-                        <label for="other">Other</label>
-                    </p>
-                </fieldset>
-                <br>
-                <fieldset>
-                    <legend>Do you have the pets?</legend>
-                    <p>
-                        <input type="checkbox" name="pets" id="dog" value="dog">
-                        <label for="dog">Dog</label>
-                    </p>
-
-                    <p>
-                        <input type="checkbox" name="pets" id="cat" value="cat">
-                        <label for="cat">Cat</label>
-                    </p>
-
-                    <p>
-                        <input type="checkbox" name="pets" id="fish" value="fish">
-                        <label for="fish">Fish</label>
-                    </p>
-
-                    <p>
-                        <input type="checkbox" name="pets" id="others" value="others">
-                        <label for="others">Other</label>
-                    </p>
-                </fieldset>
-                <br>
-                <fieldset>
-                    <legend>Send me a note</legend>
-                    <label for="message">Your Message: </label>
-                    <br>
-                    <textarea name="message" id="message" cols="30" rows="10"
-                        placeholder="Type your message here"></textarea>
-                </fieldset>
-                <br>
-                <button type="submit">Submit</button>
-                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
-                <button type="reset">Reset</button>
-            </form>
-        </article>
-    </main>
-    <hr>
-    <footer>
-        <p>
-            &lt;&lt;&lt; &copy;<a href="about.html">shashank</a> &gt;&gt;&gt;
-        </p>
-
-        <p>
-            <a href="#">Back to the top</a>
-        </p>
-    </footer>
+    <div>
+        <table border="5" align="center">
+            <tr id="i">
+                <th>USN</th>
+                <th>Name</th>
+                <th>Section</th>
+                <th>Branch</th>
+                <th>Maths</th>
+                <th>DSA</th>
+                <th>DAA</th>
+                <th>O.S</th>
+                <th>MCES</th>
+                <th> PPL</th>
+            </tr>
+            <tr align="center">
+                <td>1</td>
+                <td>Shashank</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>95</td>
+                <td>98</td>
+                <td>93</td>
+                <td>85</td>
+                <td>98</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>Shashi</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>78</td>
+                <td>100</td>
+                <td>96</td>
+                <td>90</td>
+                <td>96</td>
+                <td>99</td>
+            </tr>
+            <tr align="center">
+                <td>3</td>
+                <td>Ayush</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>98</td>
+                <td>45</td>
+                <td>88</td>
+                <td>89</td>
+                <td>58</td>
+                <td>79</td>
+            </tr>
+            <tr align="center">
+                <td>4</td>
+                <td>Sai</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>80</td>
+                <td>100</td>
+                <td>89</td>
+                <td>80</td>
+                <td>76</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>5</td>
+                <td>Aryan</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>90</td>
+                <td>96</td>
+                <td>94</td>
+                <td>82</td>
+                <td>92</td>
+                <td>80</td>
+            </tr>
+            <tr align="center">
+                <td>6</td>
+                <td>Kavya</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>92</td>
+                <td>98</td>
+                <td>93</td>
+                <td>85</td>
+                <td>98</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>7</td>
+                <td>Sharath</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>95</td>
+                <td>98</td>
+                <td>93</td>
+                <td>85</td>
+                <td>98</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>8</td>
+                <td>Sharan</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>98</td>
+                <td>99</td>
+                <td>96</td>
+                <td>89</td>
+                <td>96</td>
+                <td>80</td>
+            </tr>
+            <tr align="center">
+                <td>9</td>
+                <td>Sharath</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>95</td>
+                <td>98</td>
+                <td>93</td>
+                <td>85</td>
+                <td>98</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>10</td>
+                <td>Sravya</td>
+                <td>A sec</td>
+                <td>CSE</td>
+                <td>96</td>
+                <td>78</td>
+                <td>91</td>
+                <td>83</td>
+                <td>95</td>
+                <td>80</td>
+            </tr>
+            <tr align="center">
+                <td>11</td>
+                <td>Srusti</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>95</td>
+                <td>92</td>
+                <td>74</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>12</td>
+                <td>Sumanth</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>100</td>
+                <td>92</td>
+                <td>94</td>
+                <td>84</td>
+                <td>95</td>
+                <td>87</td>
+            </tr>
+            <tr align="center">
+                <td>13</td>
+                <td>Shankar</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>95</td>
+                <td>94</td>
+                <td>94</td>
+                <td>85</td>
+                <td>98</td>
+                <td>83</td>
+            </tr>
+            <tr align="center">
+                <td>14</td>
+                <td>Ramesh</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>96</td>
+                <td>91</td>
+                <td>94</td>
+                <td>100</td>
+                <td>96</td>
+                <td>84</td>
+            </tr>
+            <tr align="center">
+                <td>15</td>
+                <td>Srusti</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>95</td>
+                <td>92</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>16</td>
+                <td>Shami</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>92</td>
+                <td>97</td>
+                <td>95</td>
+                <td>80</td>
+                <td>91</td>
+                <td>90</td>
+            </tr>
+            <tr align="center">
+                <td>17</td>
+                <td>Shashank</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>85</td>
+                <td>82</td>
+                <td>84</td>
+                <td>66</td>
+                <td>78</td>
+                <td>91</td>
+            </tr>
+            <tr align="center">
+                <td>18</td>
+                <td>Srusti</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>90</td>
+                <td>92</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>19</td>
+                <td>Shekar</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>96</td>
+                <td>92</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>100</td>
+            </tr>
+            <tr align="center">
+                <td>20</td>
+                <td>Rahul</td>
+                <td>B sec</td>
+                <td>ECE</td>
+                <td>91</td>
+                <td>92</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>21</td>
+                <td>Ayush</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>98</td>
+                <td>45</td>
+                <td>88</td>
+                <td>89</td>
+                <td>58</td>
+                <td>79</td>
+            </tr>
+            <tr align="center">
+                <td>22</td>
+                <td>Sai</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>100</td>
+                <td>88</td>
+                <td>89</td>
+                <td>80</td>
+                <td>76</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>23</td>
+                <td>Aryan</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>90</td>
+                <td>96</td>
+                <td>94</td>
+                <td>82</td>
+                <td>92</td>
+                <td>80</td>
+            </tr>
+            <tr align="center">
+                <td>24</td>
+                <td>Kavya</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>92</td>
+                <td>100</td>
+                <td>93</td>
+                <td>85</td>
+                <td>98</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>25</td>
+                <td>Sumanth</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>91</td>
+                <td>92</td>
+                <td>94</td>
+                <td>84</td>
+                <td>95</td>
+                <td>87</td>
+            </tr>
+            <tr align="center">
+                <td>26</td>
+                <td>Shankar</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>95</td>
+                <td>94</td>
+                <td>94</td>
+                <td>85</td>
+                <td>98</td>
+                <td>83</td>
+            </tr>
+            <tr align="center">
+                <td>27</td>
+                <td>Ramesh</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>96</td>
+                <td>91</td>
+                <td>94</td>
+                <td>99</td>
+                <td>96</td>
+                <td>84</td>
+            </tr>
+            <tr align="center">
+                <td>28</td>
+                <td>Shami</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>92</td>
+                <td>97</td>
+                <td>95</td>
+                <td>80</td>
+                <td>91</td>
+                <td>90</td>
+            </tr>
+            <tr align="center">
+                <td>29</td>
+                <td>Srusti</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>100</td>
+                <td>92</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>30</td>
+                <td>Shekar</td>
+                <td>C sec</td>
+                <td>ME</td>
+                <td>96</td>
+                <td>92</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>31</td>
+                <td>Sammer</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>91</td>
+                <td>100</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>32</td>
+                <td>Manju</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>94</td>
+                <td>94</td>
+                <td>97</td>
+                <td>80</td>
+                <td>96</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>33</td>
+                <td>Ram</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>90</td>
+                <td>100</td>
+                <td>98</td>
+                <td>88</td>
+                <td>96</td>
+                <td>86</td>
+            </tr>
+            <tr align="center">
+                <td>34</td>
+                <td>Lakshmann</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>80</td>
+                <td>82</td>
+                <td>97</td>
+                <td>66</td>
+                <td>88</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>35</td>
+                <td>Raghu</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>99</td>
+                <td>96</td>
+                <td>94</td>
+                <td>83</td>
+                <td>92</td>
+                <td>96</td>
+            </tr>
+            <tr align="center">
+                <td>36</td>
+                <td>Aryan</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>88</td>
+                <td>96</td>
+                <td>99</td>
+                <td>79</td>
+                <td>67</td>
+                <td>80</td>
+            </tr>
+            <tr align="center">
+                <td>37</td>
+                <td>Summa</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>88</td>
+                <td>100</td>
+                <td>67</td>
+                <td>78</td>
+                <td>80</td>
+                <td>99</td>
+            </tr>
+            <tr align="center">
+                <td>38</td>
+                <td>Prarthana</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>99</td>
+                <td>90</td>
+                <td>97</td>
+                <td>86</td>
+                <td>97</td>
+                <td>89</td>
+            </tr>
+            <tr align="center">
+                <td>39</td>
+                <td>Usha</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>91</td>
+                <td>92</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>40</td>
+                <td>Sita</td>
+                <td>D sec</td>
+                <td>CIVIL</td>
+                <td>99</td>
+                <td>100</td>
+                <td>92</td>
+                <td>100</td>
+                <td>97</td>
+                <td>98</td>
+            </tr>
+            <tr align="center">
+                <td>41</td>
+                <td>Anmol</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>88</td>
+                <td>100</td>
+                <td>67</td>
+                <td>78</td>
+                <td>80</td>
+                <td>99</td>
+            </tr>
+            <tr align="center">
+                <td>42</td>
+                <td>Druva</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>99</td>
+                <td>96</td>
+                <td>94</td>
+                <td>83</td>
+                <td>92</td>
+                <td>96</td>
+            </tr>
+            <tr align="center">
+                <td>43</td>
+                <td>Chandu</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>100</td>
+                <td>91</td>
+                <td>92</td>
+                <td>80</td>
+                <td>95</td>
+                <td>94</td>
+            </tr>
+            <tr align="center">
+                <td>44</td>
+                <td>Chandru</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>98</td>
+                <td>90</td>
+                <td>87</td>
+                <td>88</td>
+                <td>80</td>
+                <td>99</td>
+            </tr>
+            <tr align="center">
+                <td>45</td>
+                <td>Priya</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>91</td>
+                <td>90</td>
+                <td>94</td>
+                <td>86</td>
+                <td>98</td>
+                <td>81</td>
+            </tr>
+            <tr align="center">
+                <td>46</td>
+                <td>Rashmi</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>88</td>
+                <td>100</td>
+                <td>67</td>
+                <td>78</td>
+                <td>80</td>
+                <td>99</td>
+            </tr>
+            <tr align="center">
+                <td>47</td>
+                <td>Rahul</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>90</td>
+                <td>88</td>
+                <td>78</td>
+                <td>88</td>
+                <td>60</td>
+                <td>80</td>
+            </tr>
+            <tr align="center">
+                <td>48</td>
+                <td>Bhagya</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>99</td>
+                <td>88</td>
+                <td>89</td>
+                <td>99</td>
+                <td>77</td>
+                <td>79</td>
+            </tr>
+            <tr align="center">
+                <td>49</td>
+                <td>Sathish</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>90</td>
+                <td>78</td>
+                <td>98</td>
+                <td>88</td>
+                <td>100</td>
+                <td>99</td>
+            </tr>
+            <tr align="center">
+                <td>50</td>
+                <td>Srujan</td>
+                <td>E sec</td>
+                <td>ISE</td>
+                <td>97</td>
+                <td>100</td>
+                <td>79</td>
+                <td>96</td>
+                <td>94</td>
+                <td>96</td>
+            </tr>
+        </table>
+    </div>
+    <div id="d">
+        <footer>
+            <p align="center">&copy; 2023 Copy Rights X-Workz</p>
+        </footer>
+    </div>
 </body>
 
 </html>

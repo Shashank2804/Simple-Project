@@ -1,112 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Shashank DS">
-  <meta name="description" content="The official website for the Karnataka Veg Hotel">
-  <title>Karnataka Veg Hotel</title>
-  <link rel="icon" href="img/coffee.jpeg" type="image/x-icon">
-  <link rel="stylesheet" href="./main.css">
+    <title>Internship</title>
 </head>
+<style>
+    body{
+        margin: 0;
+    }
+    #a {
+        background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    img {
+        width: 100px;
+        padding: 10px;
+    }
+    a{
+        padding: 10px;
+    }
+
+
+    #c {
+        border: 2px solid gray;
+        border-radius: 15px;
+        background-color: ivory;
+        margin-left: 35%;
+        margin-right: 35%;
+        text-align: center;
+        box-shadow: 5% ;
+    }
+
+    #d {
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        padding-top: 1px;
+        margin-top: 170px;
+        color: white;
+    }
+
+    #l {
+        background-color: rgb(143, 198, 245);
+        width: 14em;
+        border-radius: 10px;
+    }
+</style>
 
 <body>
-  <header>
-    <h1>Welcome to Karnataka Veg Hotel</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="#about">About <abbr title="Karnataka Veg Hotel">KVH</abbr></a>
-        </li>
-        <li>
-          <a href="#menu">Our Menu </a>
-        </li>
-        <li>
-          <a href="hours.html">Hotel Timings</a>
-        </li>
-        <li>
-          <a href="contact.html">Contuct Us </a>
-        </li>
-      </ul>
+    <div>
+        <nav id="a">
+            <div>
+            <img src="/Images/x workz 2 logo.png" alt="Logo" />
+        </div>
+            <div>
+                <a href="./demo.html" >Next Page</a>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <marquee behavior="scroll" direction="right to left"><i>Hi Welcome to Instagram .....</i></marquee><br>
     </nav>
-    <figure>
-      <img src="img/fullmeals.jpeg" alt="Karnataka food" title="We love Karnataka foods!" width="350" height="300">
-      <figcaption>Karnataka Full Meals...</figcaption>
-    </figure>
-  </header>
-  <hr>
-  <main>
-    <article id="about">
-      <h2>About <abbr title="Karnataka Veg Hotel">KVH</abbr></h2>
-      <p>
-        <abbr title="Karnataka Veg Hotel">KVH</abbr> was founded in <time datetime="2023">2023</time>.
-        Our hotel was build for <strong>Karnataka food lovers</strong>.We hope our hotel give good taste to all.
-
-      </p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nisi? Quibusdam sint ad laudantium
-        voluptatibus excepturi totam cum eius dolorum inventore aperiam culpa suscipit expedita nemo cumque
-        eligendi, accusantium animi.</p>
-      <aside>
-        <h3>Karnataka Foods </h3>
-        <details>
-          <summary>When was the first branch of KVH started in Karnataka</summary>
-          <p>Well,First branch of KVH is started at bangalore and it was started by owner Shankar.
-            Then the remaining branches was started in the Karnataka and the hotel is giving good
-            taste all over Karnataka.The hotel started at<time datetime="2023"> 2023</time>and its going
-            well..
-            (Source: <cite><a href="https://www.google.com/" target="_blank">Karnataka Food
-                Magazine</a></cite>)
-          </p>
-        </details>
-      </aside>
-    </article>
-    <hr>
-    <article id="menu">
-      <h2> Our Menu</h2>
-      <table>
-        <caption>Our Karnataka Veg Hotel</caption>
-        <thead>
-          <tr>
-            <th>Karnataka Foods</th>
-            <th scope="col">Price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Masala Dosa</th>
-            <td>60 Rs.</td>
-          </tr>
-          <tr>
-            <th scope="row">Idly Vada</th>
-            <td>45 Rs.</td>
-          </tr>
-          <tr>
-            <th scope="row">Veg Palava</th>
-            <td>40 Rs.</td>
-          </tr>
-          <tr>
-            <th scope="row">Bisi Bela Bath</th>
-            <td>40 Rs.</td>
-          </tr>
-          <tr>
-            <th scope="row">Puri..</th>
-            <td> 35 Rs.</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="2"> Coffee &amp; Tea - 10 Rs.</td>
-          </tr>
-        </tfoot>
-      </table>
-      <br>
-      <p><a href="#">Back to the Top</a></p>
-    </article>
-  </main>
-  <hr>
-  <footer>
-    <p>Copyright &copy; Karnataka Veg Hotal..</p>
-  </footer>
+    <br>
+    <div id="c">
+        <form>
+            <h2><i>Instagram..🙂</i></h2>
+            <br>
+            <label style="text-align: left;">User name:</label><br>
+            <input type="text" placeholder="User name"><br>
+            <br>
+            <label for="">Password:</label><br>
+            <input type="text" placeholder="Password"><br>
+            <br>
+            <label for=""> Confirm Password:</label><br>
+            <input type="text" placeholder="Confirm Password">
+            <br>
+            <br>
+            <a href="./login.html"><input id="l" type="button" value="Login.."></input></a><br>
+            <br>
+            <button style="border-radius: 10px; width:8em;background-color: gray;">Reset</button>
+            <br>
+            <br>
+        </form>
+    </div>
+    <br>
+    <div id="d">
+        <footer>
+            <p align="center">&copy; 2023 Copy Rights X-Workz</p>
+        </footer>
+    </div>
 </body>
 
 </html>
